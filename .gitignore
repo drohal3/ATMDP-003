@@ -1,3 +1,6 @@
 .env
 local/
 */.ipynb_checkpoints/
+.venv
+*.egg-info
+__pycache__

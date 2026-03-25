@@ -4,8 +4,8 @@ Data analysis of marine and atmospheric data at Tvärminne research station (Adv
 
 install local package
 ```
-source .venv/bin/activate
 uv venv --python 3.13
+source .venv/bin/activate
 uv pip install -e .
 uv pip install ipykernel
 python -m ipykernel install --user --name=atmdp003

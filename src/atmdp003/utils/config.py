@@ -19,4 +19,5 @@ def lazy_env(var_name: str, default=None, required=True):
 # PRECURSORS_RAW_CSV_PATH = lazy_env("PRECURSORS_RAW_CSV_PATH")
 TRACEGASES_RAW_DIR_PATH = lazy_env("TRACEGASES_RAW_DIR_PATH")
 PREPROCESSED_DIR_PATH = lazy_env("PREPROCESSED_DIR_PATH")
+COMBINED_CSV_PATH = lazy_env("COMBINED_CSV_PATH")
 
